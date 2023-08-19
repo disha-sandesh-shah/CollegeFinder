@@ -1,0 +1,69 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.search-bar {
+    margin-right: 20px;
+}
+
+.logo {
+    margin-left: 2px;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.search-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+#sector {
+    padding: 3px;
+}
+
+.search-input {
+    padding: 3px;
+}
+
+main {
+    padding: 0;
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.card {
+    background-color: #d3edfe;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    width: 360px;
+    box-shadow: 0 0 4px gray;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px gray;
+}
